@@ -1,0 +1,10 @@
+Created new project on Heroku from Web console.
+Created gitlab code repo
+Cloned example repo from clone https://github.com/heroku/python-getting-started.git
+Linked this app repo to new project using: heroku git:remote --app bigcreekbaitandtackle  (This creates 'git remote' heroku to git
+repo above
+
+Pushed example repo with: git push heroku master
+(This is becaue I've established a 'git remote' which is: 
+heroku	https://git.heroku.com/bigcreekbaitandtackle.git (fetch)
+heroku	https://git.heroku.com/bigcreekbaitandtackle.git (push)
